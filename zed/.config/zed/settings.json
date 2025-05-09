@@ -1,0 +1,83 @@
+// Zed settings
+//
+// For information on how to configure Zed, see the Zed
+// documentation: https://zed.dev/docs/configuring-zed
+//
+// To see all of Zed's default settings without changing your
+// custom settings, run `zed: open default settings` from the
+// command palette
+{
+  "buffer_font_family": "MonaspiceNe Nerd Font",
+  "ligatures": true,
+  "agent": {
+    "default_model": {
+      "provider": "copilot_chat",
+      "model": "claude-3-7-sonnet"
+    },
+    "version": "2"
+  },
+  "base_keymap": "JetBrains",
+  "lsp": {
+    "pyright": {
+      "settings": {
+        "python.analysis": {
+          "diagnosticMode": "workspace",
+          "typeCheckingMode": "strict"
+        },
+        "python": {
+          "pythonPath": ".venv/bin/python"
+        }
+      }
+    }
+  },
+  "show_edit_predictions": true,
+  "terminal": {
+    "copy_on_select": true,
+    "detect_venv": {
+      "on": {
+        // Default directories to search for virtual environments, relative
+        // to the current working directory. We recommend overriding this
+        // in your project's settings, rather than globally.
+        "directories": [
+          ".env",
+          "env",
+          ".venv",
+          "venv"
+        ],
+        // Can also be `csh`, `fish`, and `nushell`
+        "activate_script": "fish"
+      }
+    },
+    "dock": "bottom"
+  },
+  "git_panel": {
+    "dock": "right"
+  },
+  "features": {
+    "edit_prediction_provider": "zed"
+  },
+  "collaboration_panel": {
+    "dock": "right"
+  },
+  "outline_panel": {
+    "dock": "right"
+  },
+  "project_panel": {
+    "dock": "right"
+  },
+  "ui_font_size": 16,
+  "buffer_font_size": 14,
+  "theme": {
+    "mode": "system",
+    "light": "One Light",
+    "dark": "Ayu Dark"
+  },
+  "formatter": "language_server",
+  "format_on_save": "on",
+  "edit_predictions": {
+    "mode": "subtle"
+  },
+  "wrap_guides": [
+    120
+  ]
+}
