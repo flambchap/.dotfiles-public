@@ -2,7 +2,7 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
 end
 
-if test "$(uname)" = Darwin
+if test (uname) = Darwin
     eval "$(/opt/homebrew/bin/brew shellenv)"
 end
 
