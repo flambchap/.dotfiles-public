@@ -1,2 +1,3 @@
 # font-family = MonaspiceNe Nerd Font
 font-size = 13
+theme = light:Builtin Light,dark:Apple System Colors
