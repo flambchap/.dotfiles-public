@@ -3,7 +3,7 @@ if status is-interactive
 end
 
 if test (uname) = Darwin
-    eval "$(/opt/homebrew/bin/brew shellenv)"
+    eval (/opt/homebrew/bin/brew shellenv)
 end
 
 set editors helix hx nvim vim vi nano
