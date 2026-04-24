@@ -7,97 +7,97 @@
 // custom settings, run `zed: open default settings` from the
 // command palette
 {
-  "buffer_font_family": "JetBrainsMono Nerd Font",
-  "agent": {
-    "use_modifier_to_send": true,
-    "single_file_review": false,
-    "inline_assistant_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-5-mini"
-    },
-    "default_profile": "ask",
-    "default_model": {
-      "provider": "copilot_chat",
-      "model": "gpt-5-mini"
-    }
-  },
-  "base_keymap": "JetBrains",
-  "lsp": {
-    "pyright": {
-      "settings": {
-        "python.analysis": {
-          "diagnosticMode": "workspace",
-          "typeCheckingMode": "standard"
+    "buffer_font_family": "JetBrainsMono Nerd Font",
+    "agent": {
+        "use_modifier_to_send": true,
+        "single_file_review": false,
+        "inline_assistant_model": {
+            "provider": "copilot_chat",
+            "model": "gpt-5-mini"
         },
-        "python": {
-          "pythonPath": ".venv/bin/python"
+        "default_profile": "ask",
+        "default_model": {
+            "provider": "copilot_chat",
+            "model": "gpt-5-mini"
         }
-      }
-    }
-  },
-  "show_edit_predictions": true,
-  "terminal": {
-    "copy_on_select": true,
-    "detect_venv": {
-      "on": {
-        // Default directories to search for virtual environments, relative
-        // to the current working directory. We recommend overriding this
-        // in your project's settings, rather than globally.
-        "directories": [
-          ".env",
-          "env",
-          ".venv",
-          "venv"
-        ],
-        // Can also be `csh`, `fish`, and `nushell`
-        "activate_script": "fish"
-      }
     },
-    "dock": "bottom"
-  },
-  "git_panel": {
-    "dock": "right"
-  },
-  "features": {
-    "edit_prediction_provider": "copilot"
-  },
-  "collaboration_panel": {
-    "dock": "right"
-  },
-  "outline_panel": {
-    "dock": "right"
-  },
-  "project_panel": {
-    "auto_fold_dirs": false,
-    "dock": "right"
-  },
-  "ui_font_size": 15,
-  "buffer_font_size": 13,
-  "theme": {
-    "mode": "system",
-    "light": "Catppuccin Latte - No Italics",
-    "dark": "Catppuccin Mocha - No Italics"
-  },
-  "formatter": "language_server",
-  "format_on_save": "on",
-  "edit_predictions": {
-    "mode": "subtle"
-  },
-  "wrap_guides": [
-    140
-  ],
-  "languages": {
-    "Python": {
-      "format_on_save": "off",
-      "language_servers": [
-        "pylsp"
-      ]
+    "base_keymap": "JetBrains",
+    "lsp": {
+        "pyright": {
+            "settings": {
+                "python.analysis": {
+                    "diagnosticMode": "workspace",
+                    "typeCheckingMode": "standard"
+                },
+                "python": {
+                    "pythonPath": ".venv/bin/python"
+                }
+            }
+        }
     },
-    "Go": {
-      "language_servers": [
-        "gopls",
-        "golangci-lint-langserver"
-      ]
+    "show_edit_predictions": true,
+    "terminal": {
+        "copy_on_select": true,
+        "detect_venv": {
+            "on": {
+                // Default directories to search for virtual environments, relative
+                // to the current working directory. We recommend overriding this
+                // in your project's settings, rather than globally.
+                "directories": [
+                    ".env",
+                    "env",
+                    ".venv",
+                    "venv"
+                ],
+                // Can also be `csh`, `fish`, and `nushell`
+                "activate_script": "fish"
+            }
+        },
+        "dock": "bottom"
+    },
+    "git_panel": {
+        "dock": "right"
+    },
+    "features": {
+        "edit_prediction_provider": "copilot"
+    },
+    "collaboration_panel": {
+        "dock": "right"
+    },
+    "outline_panel": {
+        "dock": "right"
+    },
+    "project_panel": {
+        "auto_fold_dirs": false,
+        "dock": "right"
+    },
+    "ui_font_size": 15,
+    "buffer_font_size": 13,
+    "theme": {
+        "mode": "system",
+        "light": "Catppuccin Latte - No Italics",
+        "dark": "Catppuccin Mocha - No Italics"
+    },
+    "formatter": "language_server",
+    "format_on_save": "on",
+    "edit_predictions": {
+        "mode": "subtle"
+    },
+    "wrap_guides": [
+        140
+    ],
+    "languages": {
+        "Python": {
+            "format_on_save": "off",
+            "language_servers": [
+                "pylsp"
+            ]
+        },
+        "Go": {
+            "language_servers": [
+                "gopls",
+                "golangci-lint-langserver"
+            ]
+        }
     }
-  }
 }
