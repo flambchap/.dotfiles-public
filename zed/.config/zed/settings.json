@@ -75,8 +75,8 @@
     "buffer_font_size": 13,
     "theme": {
         "mode": "system",
-        "light": "Catppuccin Latte - No Italics",
-        "dark": "Catppuccin Mocha - No Italics"
+        "light": "Ayu Light",
+        "dark": "ultraViolet"
     },
     "formatter": "language_server",
     "format_on_save": "on",
