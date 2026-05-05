@@ -1,0 +1,3 @@
+[tasks.update-polyrepo]
+# Set --jobs 0 for maximum fun
+run = "parallel --jobs 48 '[ -d {}/.git ] && git -C {} pull' ::: */"
