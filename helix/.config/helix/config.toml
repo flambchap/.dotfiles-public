@@ -1,5 +1,0 @@
-theme = "jetbrains_dark"
-#theme = "emacs"
-
-[editor.file-picker]
-hidden = false
